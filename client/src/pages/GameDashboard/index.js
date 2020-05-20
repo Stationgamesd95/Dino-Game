@@ -1,5 +1,5 @@
 import React from 'react'
-import Game from "../Game1"
+import Game1 from "../Game1"
 
 
 function GameDashboard() {
@@ -7,7 +7,7 @@ function GameDashboard() {
         <div class="container">
           <div class="row">
             <div class="col-md-auto"></div>
-            <Game/>
+            <Game1/>
           </div>
         </div>
     )
