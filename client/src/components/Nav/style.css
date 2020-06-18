@@ -1,3 +1,11 @@
 .navbar {
   border-radius: 0;
 }
+
+.navbar-dark {
+  background-color: green;
+}
+
+.navbar-brand {
+  font-style: normal;
+}

@@ -23,7 +23,7 @@ const AuthExample = () => (
 				<Nav className="App-header" />
 				<Container>
 					<Switch>
-						<Route path="/public" component={PublicRoute} />
+						<Route exact path="/" component={PublicRoute} />
 						<Route path="/login" component={Login} />
 						<Route path="/register" component={Register} />
 						<PrivateRoute path="/protected" component={ProtectedRoute} />
@@ -56,6 +56,8 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
 								<div className="col-sm"></div>
 								<div className="col-sm">
 									<h3>Please Register or Login</h3>
+									<a href="/register" class="btn btn-primary btn-lg btn-block">Register</a>
+									<a href="/login" class="btn btn-secondary btn-lg btn-block">Login</a>
 								</div>
 								<div className="col-sm"></div>
 							</div>

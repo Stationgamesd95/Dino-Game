@@ -1,0 +1,11 @@
+.dino {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(./dinoreact.png);
+    background-size: cover;
+    background-position: center;
+}
+h3 {
+    text-align: center;
+}

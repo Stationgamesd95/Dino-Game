@@ -26,6 +26,7 @@ function LoginForm({ onLogin }) {
 						Submit
 						</button>
 				</div>
+				<a href="/register">Want to play? Then Register to Play!</a>
 			</form>
 		</Card>
 	)

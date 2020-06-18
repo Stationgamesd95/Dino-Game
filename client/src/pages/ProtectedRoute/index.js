@@ -38,12 +38,15 @@ function ProtectedRoute() {
 			<div className="alert alert-success" role="alert">
 				Success, You are logged in
 				</div>
-			<Card title="Welcome.">
+			<Card title="Welcome">
 				<p>You are logged in.</p>
 			</Card>
 			<Game/>
 		</div>
+
+
 	)
+	
 
 }
 
